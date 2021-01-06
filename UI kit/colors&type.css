@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -92,18 +96,6 @@ body {
     height: 56px;
     left: 260px;
     top: 152px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    
-    /* Dark 100% */
-    
-    color: #1F2041;
 }
 .description_1 {
     /* Dark Shade 75% #1F2041 */
@@ -112,18 +104,6 @@ body {
     height: 56px;
     left: 260px;
     top: 242px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    
-    /* Dark 100% */
-    
-    color: #1F2041;
 }
 .description_2 {
     /* Dark Shade 50% #1F2041 */
@@ -132,18 +112,6 @@ body {
     height: 56px;
     left: 260px;
     top: 332px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    
-    /* Dark 100% */
-    
-    color: #1F2041;
 }
 .description_3 {
     /* Dark Shade 25% #1F2041 */
@@ -153,18 +121,6 @@ body {
     height: 56px;
     left: 260px;
     top: 422px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-
-    /* Dark 100% */
-
-    color: #1F2041;
 }
 .description_4 {
     /* Dark Shade 5% #1F2041 */
@@ -174,18 +130,6 @@ body {
     height: 56px;
     left: 260px;
     top: 512px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-
-    /* Dark 100% */
-
-    color: #1F2041;
 }
 .description_5 {
     /* Purple #BC9CFF */
@@ -194,18 +138,6 @@ body {
     height: 56px;
     left: 260px;
     top: 602px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-
-    /* Dark 100% */
-
-    color: #1F2041;
 }
 .description_6 {
     /* Green #6FCF97 */
@@ -215,18 +147,25 @@ body {
     height: 56px;
     left: 260px;
     top: 692px;
-
+}
+.description_style {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
     line-height: 28px;
     display: flex;
-    align-items: center;
-
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    
     /* Dark 100% */
-
+    
     color: #1F2041;
+}
+.another_fontsyle {
+    font-family: Quciksand, sans-serif;
+    font-weight: regular;
 }
 .font {
     /* H1 */
@@ -395,14 +334,21 @@ body {
 
     color: rgba(31, 32, 65, 0.75);
 }
+.vektor {
+    position: absolute;
+    /* display: flex;
+    flex-flow: row nowrap; */
+    margin: 30px 0 0 30px;
+}
 .circle {
     /* Vector */
 
+ 
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 30px;
-    top: 30px;
+    /* left: 0;
+    top: 0; */
 
     /* Dark 25% */
 
@@ -410,11 +356,12 @@ body {
     background: #FFFFFF;
 }
 .left_elem {
+    /* display: block; */
     position: absolute;
     width: 14.12px;
     height: 14.12px;
-    left: 41.29px;
-    top: 48.35px;
+    left: 11.29px;
+    top: 18.35px;
     
     /* Dark 25% */
     
@@ -422,11 +369,12 @@ body {
     background: #FFFFFF;
 }
 .right_elem {
+    /* display: block; */
     position: absolute;
     width: 10.94px;
     height: 7.09px;
-    left: 55.77px;
-    top: 48.35px;
+    left: 24.77px;
+    top: 18.35px;
     
     /* Dark 25% */
     
